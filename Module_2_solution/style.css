@@ -1,1 +1,155 @@
+h1{
+	text-align: center;
+	margin-bottom: 100px;
+}
+.chicken{
+	
+	border: 2px solid;
+	width: 400px;
+	font-weight: bold;
+	background-color: grey;
+	padding: 10px 10px 10px;
+	padding-bottom: 0;
+	margin-bottom: 20px;
+}
+.overflow{
+	border: 2px solid;
+	width: 60px;
+	font-weight: bold;
+	background-color: pink;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+	bottom: 119px;
+	left: 329px;
+    }
+ .beef{
+ 	border: 2px solid;
+ 	width: 400px;
+ 	font-weight: bold;
+ 	background-color: grey;
+ 	padding: 26px 20px 15px 20px;
+ 	position: relative;
+ 	left: 440px;
+ 	bottom: 142px;
+
+
+ }
+ .overflow2{
+ 	border: 2px solid;
+	width: 60px;
+	border-color: black;
+	font-weight: bold;
+	color: white;
+	background-color: red;
+	padding-left: 28px;
+	padding-right: 0;
+	position: relative;
+	bottom: 240px;
+	left: 791px;
+
+ }
+ .sushi{
+ 	border: 2px solid;
+ 	height: 54px;
+	width: 400px;
+	overflow: hidden;
+	font-weight: bold;
+	background-color: grey;
+	padding: 25px 10px 10px;
+	padding-bottom: 16px;
+	margin-bottom: 20px;
+	position: relative;
+	bottom: 263px;
+	left: 898px;
+ }
+ .overflow3{
+ 	border: 2px solid;
+	width: 60px;
+	font-weight: bold;
+	background-color: yellow;
+	padding-left: 25px;
+	padding-right: 0;
+	position: relative;
+	bottom: 381px;
+	left: 1232px;
+ }
+ @media (min-width: 768px) and (max-width: 991px)
+ {
+ 	.sushi{
+ 	border: 2px solid;
+	width: 861px;
+	font-weight: bold;
+	background-color: grey;
+	padding: 25px 10px 10px;
+	padding-bottom: 16px;
+	margin-bottom: 20px;
+	position: relative;
+	left: 0;
+	bottom: 150px;
+    }
+    .overflow3{
+ 	border: 2px solid;
+	width: 60px;
+	font-weight: bold;
+	background-color: yellow;
+	padding-left: 25px;
+	padding-right: 0;
+	position: relative;
+	bottom: 268px;
+	left: 795px;
+    }
+	
+ }
+ @media (max-width: 767px)
+ {
+ 	.beef{
+ 	border: 2px solid;
+ 	width: 382px;
+ 	font-weight: bold;
+ 	background-color: grey;
+ 	padding: 26px 20px 15px 20px;
+ 	position: relative;
+ 	left: 0;
+ 	bottom: 25px;
+    }
+     .overflow2{
+ 	border: 2px solid;
+	width: 60px;
+	border-color: black;
+	font-weight: bold;
+	color: white;
+	background-color: red;
+	padding-left: 28px;
+	padding-right: 0;
+	position: relative;
+	bottom: 123px;
+	left: 333px;
+    }
+ 	.sushi{
+ 	border: 2px solid;
+	width: 403px;
+	font-weight: bold;
+	background-color: grey;
+	padding: 25px 10px 10px;
+	padding-bottom: 16px;
+	margin-bottom: 20px;
+	position: relative;
+	left: 0;
+	bottom: 29px;
+    }
+    .overflow3{
+ 	border: 2px solid;
+	width: 60px;
+	font-weight: bold;
+	background-color: yellow;
+	padding-left: 25px;
+	padding-right: 0;
+	position: relative;
+	bottom: 147px;
+	left: 337px;
+    }
+	
+ }
+ 
 
